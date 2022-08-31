@@ -1,3 +1,3 @@
 class Membership < ApplicationRecord
-    belongs_to :gyms, :clients
+    belongs_to :gym, :client
 end
